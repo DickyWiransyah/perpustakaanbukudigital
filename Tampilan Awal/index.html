@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Light Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="css/lightslider.css" />
+
+    <!-- Dicky Wiransyah -->
+    <!-- 18101152620080 -->
+    <!-- 2021 -->
+
+    <title>Perpustakaan Buku Digital</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a class="navbar-brand" href="#home">
+        <img src="img/logo.png" alt="" width="130" height="60" />
+      </a>
+
+      <nav class="navbar">
+        <a class="active" href="index.html">Home</a>
+        <a href="list-book.html">Book</a>
+        <a href="#about">Contribution</a>
+        <a href="#menu">Developer</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-user-circle"></a>
+        <a href="#" class="fas fa-donate"></a>
+      </div>
+    </header>
+    <!-- Akhir Navbar -->
+
+    <!-- Menu Search -->
+    <form action="" id="search-form">
+      <input type="search" placeholder="Search Book..." name="" id="search-box" />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- Akhir Menu Search -->
+
+    <!-- Jumbotron -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>The Best Book</span>
+              <h3>Harry Potter</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+              <a href="#" class="btn">Baca Buku</a>
+            </div>
+            <div class="image">
+              <img src="img/2.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>The Best Book</span>
+              <h3>Harry Potter</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+              <a href="#" class="btn">Baca Buku</a>
+            </div>
+            <div class="image">
+              <img src="img/1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>The Best Book</span>
+              <h3>hot pizza</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+              <a href="#" class="btn">Baca Buku</a>
+            </div>
+            <div class="image">
+              <img src="img/3.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>The Best Book</span>
+              <h3>hot pizza</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+              <a href="#" class="btn">Baca Buku</a>
+            </div>
+            <div class="image">
+              <img src="img/4.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>The Best Book</span>
+              <h3>hot pizza</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+              <a href="#" class="btn">Baca Buku</a>
+            </div>
+            <div class="image">
+              <img src="img/5.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Kategori Buku -->
+    <div id="kategoribuku" class="container">
+      <div class="line"></div>
+      <h2 class="kategoribuku1">Kategori <strong>Buku</strong></h2>
+    </div>
+
+    <ul id="autoWidth" class="cs-hidden">
+      <li class="item-a">
+        <div class="bukuslide">
+          <div class="slidebuku-img">
+            <img src="img/sd.jpg" alt="1" />
+
+            <div class="overlay">
+              <a href="#" class="lihatbuku-btn">View All Book</a>
+            </div>
+          </div>
+
+          <div class="detailbuku">
+            <div class="tipe">
+              <p>SD</p>
+              <span>Semua Buku Mata Pelajaran</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="item-b">
+        <div class="bukuslide">
+          <div class="slidebuku-img">
+            <img src="img/smp.jpg" alt="2" />
+
+            <div class="overlay">
+              <a href="#" class="lihatbuku-btn">View All Book</a>
+            </div>
+          </div>
+
+          <div class="detailbuku">
+            <div class="tipe">
+              <p>SMP</p>
+              <span>Semua Buku Mata Pelajaran</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="item-c">
+        <div class="bukuslide">
+          <div class="slidebuku-img">
+            <img src="img/sma.jpg" alt="3" />
+
+            <div class="overlay">
+              <a href="#" class="lihatbuku-btn">View All Book</a>
+            </div>
+          </div>
+
+          <div class="detailbuku">
+            <div class="tipe">
+              <p>SMA</p>
+              <span>Semua Buku Mata Pelajaran</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="item-d">
+        <div class="bukuslide">
+          <div class="slidebuku-img">
+            <img src="img/coding.jpg" alt="4" />
+
+            <div class="overlay">
+              <a href="#" class="lihatbuku-btn">View All Book</a>
+            </div>
+          </div>
+
+          <div class="detailbuku">
+            <div class="tipe">
+              <p>Programming</p>
+              <span>E-Book</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="item-e">
+        <div class="bukuslide">
+          <div class="slidebuku-img">
+            <img src="img/bisnis.jpg" alt="5" />
+
+            <div class="overlay">
+              <a href="#" class="lihatbuku-btn">View All Book</a>
+            </div>
+          </div>
+
+          <div class="detailbuku">
+            <div class="tipe">
+              <p>Bisnis</p>
+              <span>E-Book</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="item-f">
+        <div class="bukuslide">
+          <div class="slidebuku-img">
+            <img src="img/design.jpg" alt="6" />
+
+            <div class="overlay">
+              <a href="#" class="lihatbuku-btn">View All Book</a>
+            </div>
+          </div>
+
+          <div class="detailbuku">
+            <div class="tipe">
+              <p>Design</p>
+              <span>E-Book</span>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <li class="item-g">
+        <div class="bukuslide">
+          <div class="slidebuku-img">
+            <img src="img/video.jpg" alt="7" />
+
+            <div class="overlay">
+              <a href="#" class="lihatbuku-btn">View All Book</a>
+            </div>
+          </div>
+
+          <div class="detailbuku">
+            <div class="tipe">
+              <p>Editing & Video</p>
+              <span>E-Book</span>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <!-- Akhir Kategori Buku -->
+
+    <!-- Benefit -->
+    <section id="container">
+      <div class="benefit">
+        <div class="line-benefit"></div>
+        <h2 class="title">BENEFIT</h2>
+      </div>
+
+      <div class="wrapper1">
+        <div class="card">
+          <img src="img/buku.png" />
+          <div class="info">
+            <h1>Free</h1>
+            <p>Tersedia Buku Gratis dan Lengkap</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/website.jpg" />
+          <div class="info">
+            <h1>Website</h1>
+            <p>Bisa Diakses Dimanapun Melalui Laptop Maupun Smartphone</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/qrcode.jpg" />
+          <div class="info">
+            <h1>QR Code</h1>
+            <p>Menggunakan Teknologi QR Code</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Benefit -->
+
+    <!-- Footer -->
+    <section class="footer" style="background-color: #2b2a2a">
+      <div class="box-container">
+        <div class="box">
+          <h3>Ikuti Kami</h3>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">Discord</a>
+        </div>
+
+        <div class="box">
+          <h3>Contribution</h3>
+          <a href="#">People Contribution</a>
+          <a href="#">Attribusi Freepik</a>
+        </div>
+
+        <div class="box">
+          <h3>Bantuan</h3>
+          <a href="#">Syarat & Ketentuan</a>
+          <a href="#">Kebijakan Privasi</a>
+        </div>
+
+        <div class="box">
+          <h3>Customer Service</h3>
+          <a href="#">dickyjawa46@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="credit">
+        Copyright @ 2021 by <span>Dicky Wiransyah</span>
+        <ul class="sosialmedia" style="font-size: x-large">
+          <a href="http://wa.me/+6281361231269" target="_blank">
+            <span style="font-size: 35px; color: #fff">
+              <i class="fab fa-whatsapp" style="padding-right: 2rem"></i>
+            </span>
+          </a>
+
+          <a href="https://www.instagram.com/dickywiransyahh/" target="_blank">
+            <span style="font-size: 35px; color: #fff">
+              <i class="fab fa-instagram" style="padding-right: 2rem"></i>
+            </span>
+          </a>
+
+          <a href="#">
+            <span style="font-size: 35px; color: #fff">
+              <i class="fab fa-linkedin-in" style="padding-right: 2rem"></i>
+            </span>
+          </a>
+        </ul>
+      </div>
+    </section>
+    <!-- Akhir Footer -->
+
+    <!-- Loader Gif -->
+    <!--  
+    <div class="loader-container">
+      <img src="img/loader.gif" />
+    </div>
+    -->
+    <!-- Akhir Loader Gif -->
+
+    <!-- ------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------- -->
+
+    <!-- Jquery -->
+    <script type="text/javascript" src="js/Jquery.js"></script>
+
+    <!-- Light Slider js -->
+    <script type="text/javascript" src="js/lightslider.js"></script>
+
+    <!-- Script Javascript-->
+    <script src="js/script.js"></script>
+
+    <!-- Script Swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper('.home-slider', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
