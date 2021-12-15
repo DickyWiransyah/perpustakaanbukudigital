@@ -500,12 +500,11 @@ header .icons #menu-bars {
 }
 
 .loader-container img {
-  width: 35rem;
+  height: 10rem;
 }
 
 .loader-container.fade-out {
-  top: 110%;
-  opacity: 0;
+  display: none;
 }
 /* Akhir Loader Gif */
 /* --------------------------------------------------------------------------------------------- */
