@@ -94,3 +94,15 @@ header .icons #menu-bars {
   display: none;
 }
 /* Akhir Navbar */
+
+/* --------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------- */
+/* Pengaturan di Setiap Layar */
+
+/* Smartphone */
+@media (max-width: 768px) {
+  #bacabuku {
+    margin-top: 1rem;
+    margin-left: -430px;
+  }
+}

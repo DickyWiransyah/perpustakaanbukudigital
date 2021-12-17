@@ -117,3 +117,40 @@
   background: var(--green);
 }
 /* akhir link buku */
+
+/* --------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------- */
+/* Pengaturan di Setiap Layar */
+
+/* Smartphone */
+@media (max-width: 768px) {
+  .image {
+    margin-left: -6rem;
+  }
+
+  .content {
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  .line-benefit {
+    margin-left: -7rem;
+    width: 400px;
+  }
+  .about h2 {
+    margin-left: -7rem;
+  }
+
+  .about p {
+    margin-left: -7rem;
+  }
+
+  .downloadbuku {
+    margin-left: 25px;
+  }
+
+  .readbookviaanyflip {
+    margin-left: 25px;
+  }
+}
+/* Akhir Smartphone */
