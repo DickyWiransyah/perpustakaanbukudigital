@@ -131,15 +131,15 @@
 
   .content {
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 3px;
   }
 
   .line-benefit {
-    margin-left: -85px;
+    margin-left: -90px;
     width: 350px;
   }
   .about h2 {
-    margin-left: -85px;
+    margin-left: -90px;
   }
 
   .about p {
@@ -147,11 +147,11 @@
   }
 
   .downloadbuku {
-    margin-left: 5px;
+    margin-left: 3px;
   }
 
   .readbookviaanyflip {
-    margin-left: 5px;
+    margin-left: 3px;
   }
 }
 /* Akhir Tablet */
