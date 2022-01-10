@@ -122,36 +122,36 @@
 /* --------------------------------------------------------------------------------------------- */
 /* Pengaturan di Setiap Layar */
 
-/* Smartphone */
+/* Tablet */
 @media (max-width: 576px) {
   .image {
-    margin-left: -10rem;
-    margin-top: 2rem;
+    margin-left: -82px;
+    margin-top: 20px;
   }
 
   .content {
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 5px;
   }
 
   .line-benefit {
-    margin-left: -7rem;
-    width: 300px;
+    margin-left: -85px;
+    width: 350px;
   }
   .about h2 {
-    margin-left: -7rem;
+    margin-left: -85px;
   }
 
   .about p {
-    margin-left: -7rem;
+    margin-left: -85px;
   }
 
   .downloadbuku {
-    margin-left: 25px;
+    margin-left: 5px;
   }
 
   .readbookviaanyflip {
-    margin-left: 25px;
+    margin-left: 5px;
   }
 }
-/* Akhir Smartphone */
+/* Akhir Tablet */
