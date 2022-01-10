@@ -125,39 +125,6 @@
 /* Smartphone */
 @media (max-width: 576px) {
   .image {
-    margin-left: -5rem;
-  }
-
-  .content {
-    margin-top: 10px;
-    margin-left: 30px;
-  }
-
-  .line-benefit {
-    margin-left: -5rem;
-    width: 2500px;
-  }
-  .about h2 {
-    margin-left: -7rem;
-  }
-
-  .about p {
-    margin-left: -7rem;
-  }
-
-  .downloadbuku {
-    margin-left: 25px;
-  }
-
-  .readbookviaanyflip {
-    margin-left: 25px;
-  }
-}
-/* Akhir Smartphone */
-
-/* Tablet */
-@media (max-width: 768px) {
-  .image {
     margin-left: -8rem;
     margin-top: 2rem;
   }
@@ -187,4 +154,4 @@
     margin-left: 25px;
   }
 }
-/* Akhir Tablet */
+/* Akhir Smartphone */
