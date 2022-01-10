@@ -125,7 +125,7 @@
 /* Smartphone */
 @media (max-width: 576px) {
   .image {
-    margin-left: -9rem;
+    margin-left: -10rem;
     margin-top: 2rem;
   }
 
