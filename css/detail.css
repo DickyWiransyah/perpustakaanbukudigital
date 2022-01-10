@@ -122,10 +122,10 @@
 /* --------------------------------------------------------------------------------------------- */
 /* Pengaturan di Setiap Layar */
 
-/* Tablet */
+/* Smartphone */
 @media (max-width: 576px) {
   .image {
-    margin-left: -3rem;
+    margin-left: -5rem;
   }
 
   .content {
@@ -153,12 +153,13 @@
     margin-left: 25px;
   }
 }
-/* Akhir Tablet */
+/* Akhir Smartphone */
 
 /* Tablet */
 @media (max-width: 768px) {
   .image {
-    margin-left: -6rem;
+    margin-left: -8rem;
+    margin-top: 2rem;
   }
 
   .content {
