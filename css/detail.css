@@ -125,8 +125,12 @@
 /* Tablet */
 @media (max-width: 576px) {
   .image {
-    margin-left: -90px;
+    margin-left: -80px;
     margin-top: 20px;
+  }
+
+  .image img {
+    width: 320px;
   }
 
   .content {
