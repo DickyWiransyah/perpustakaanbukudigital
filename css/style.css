@@ -511,26 +511,16 @@ header .icons #menu-bars {
 /* --------------------------------------------------------------------------------------------- */
 /* Pengaturan di Setiap Layar */
 
-/* Tablet */
-@media (max-width: 991px) {
-  html {
-    font-size: 55%;
-  }
-
-  header {
-    padding: 1rem 2rem;
-  }
-
-  section {
-    padding: 2rem;
-  }
-}
-/* Akhir Tablet */
-
 /* Smartphone */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+  /* Navbar */
+  .navbar-brand img {
+    width: 110px;
+  }
+
   header .icons #menu-bars {
-    display: inline-block;
+    display: inline-flex;
+    padding-left: 15px;
   }
 
   header .navbar {
@@ -561,5 +551,96 @@ header .icons #menu-bars {
     width: 90%;
     margin: 0 1rem;
   }
+  /* Akhir Navbar */
+
+  /* Jumbotron */
+
+  /* Akhir Jumbotron */
+
+  /* Kategori Buku */
+  .line {
+    margin-left: 40px;
+  }
+
+  .kategoribuku1 {
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+
+  .bukuslide {
+    margin-left: 48px;
+  }
+  /* Akhir Kategori Buku */
+
+  /* Fitur */
+  .card {
+    width: 100px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 10px;
+    padding: 2rem 1rem;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+  }
+
+  .card img {
+    width: 100px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: -70px;
+  }
+
+  .card .info {
+    margin-left: -100px;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+  }
+
+  .card:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+  .card .info h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .card .info p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+  /* Akhir Fitur */
+
+  /* Footer */
+  .footer .box-container {
+    margin-left: 1rem;
+  }
+  /* AKhir Footer */
 }
 /* Akhir Smartphone */
+
+/* Desktop 
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  header {
+    padding: 1rem 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+} */
+/* Akhir Desktop */
