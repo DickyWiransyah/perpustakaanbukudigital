@@ -139,18 +139,22 @@
   }
 
   .line-benefit {
-    margin-left: -90px;
+    margin-left: -100px;
     width: 310px;
   }
   .about h2 {
-    margin-left: -90px;
+    margin-left: -100px;
   }
 
   .about p {
-    margin-left: -85px;
+    margin-left: -100px;
   }
 
   .downloadbuku {
+    margin-left: 3px;
+  }
+
+  .readbook {
     margin-left: 3px;
   }
 
