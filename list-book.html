@@ -158,5 +158,21 @@
 
     <!-- Script Javascript-->
     <script src="js/script.js"></script>
+
+    <!-- SweetAlert CDN -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Akhir SweetAlert CDN -->
+
+    <!-- Media Query -->
+    <script>
+      if (window.innerWidth < 768 || window.innerWidth < 576)
+        swal({
+          title: 'Maaf, Responsive Smartphone dalam Tahap Perkembangan',
+          text: 'Silahkan beralih ke laptop/komputer agar tampilan yang lebih nyaman dan responsive',
+          icon: 'warning',
+          button: 'OK',
+        });
+    </script>
+    <!-- Akhir Media Query -->
   </body>
 </html>
